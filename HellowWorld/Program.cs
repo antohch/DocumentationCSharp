@@ -10,6 +10,13 @@ namespace HellowWorld
     {
         static void Main(string[] args)
         {
+            int i = 123;
+            object o = i;
+            int j = (int)o;
+
+            Console.WriteLine(j);
+            Console.WriteLine(o);
+
             Console.WriteLine("Hellow World");
 
             Console.ReadKey();
