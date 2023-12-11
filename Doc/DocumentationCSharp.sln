@@ -53,11 +53,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniveralTemplates", "Univer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversalGenerics", "UniversalGenerics\UniversalGenerics.csproj", "{5B920F45-BF7D-4C5F-B019-FDF5BF4F5E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousType", "AnonymousType\AnonymousType.csproj", "{AAC8057B-8D2C-495F-B994-740A89E0E747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousType", "AnonymousType\AnonymousType.csproj", "{AAC8057B-8D2C-495F-B994-740A89E0E747}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypeFramew", "AnonymousTypeFramew\AnonymousTypeFramew.csproj", "{B33EC2D4-2FE8-44C1-A8DF-1FF1057DD59F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{90DB75C5-1A70-4D43-85F3-26146DE29F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClass", "InheritanceClass\InheritanceClass.csproj", "{46B219C2-C143-4950-AAA7-0597A996413F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,10 @@ Global
 		{B33EC2D4-2FE8-44C1-A8DF-1FF1057DD59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B33EC2D4-2FE8-44C1-A8DF-1FF1057DD59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B33EC2D4-2FE8-44C1-A8DF-1FF1057DD59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B219C2-C143-4950-AAA7-0597A996413F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B219C2-C143-4950-AAA7-0597A996413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B219C2-C143-4950-AAA7-0597A996413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B219C2-C143-4950-AAA7-0597A996413F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{5B920F45-BF7D-4C5F-B019-FDF5BF4F5E2B} = {A8812FC2-BB1F-4918-B99F-74159A571E02}
 		{AAC8057B-8D2C-495F-B994-740A89E0E747} = {A8812FC2-BB1F-4918-B99F-74159A571E02}
 		{B33EC2D4-2FE8-44C1-A8DF-1FF1057DD59F} = {A8812FC2-BB1F-4918-B99F-74159A571E02}
+		{46B219C2-C143-4950-AAA7-0597A996413F} = {A8812FC2-BB1F-4918-B99F-74159A571E02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
