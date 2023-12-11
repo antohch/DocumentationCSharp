@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C70809AD-2619-4495-B648-93C9829244AA}</ProjectGuid>
+    <ProjectGuid>{8D6E326C-3CEC-4151-B188-FB945F1A812F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Atrubut</RootNamespace>
-    <AssemblyName>Atrubut</AssemblyName>
+    <RootNamespace>TipeklTYpe</RootNamespace>
+    <AssemblyName>TipeklTYpe</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coords.cs" />
+    <Compile Include="FileMode.cs" />
+    <Compile Include="MyClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
