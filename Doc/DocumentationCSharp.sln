@@ -59,11 +59,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypeFramew", "Anon
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{90DB75C5-1A70-4D43-85F3-26146DE29F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClass", "InheritanceClass\InheritanceClass.csproj", "{46B219C2-C143-4950-AAA7-0597A996413F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceClass", "InheritanceClass\InheritanceClass.csproj", "{46B219C2-C143-4950-AAA7-0597A996413F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonObject", "PersonObject\PersonObject.csproj", "{4F1A0203-E2DE-46F2-916D-8BEA63CF817F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonObject", "PersonObject\PersonObject.csproj", "{4F1A0203-E2DE-46F2-916D-8BEA63CF817F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonStructur", "PersonStructur\PersonStructur.csproj", "{AE22E1E4-1448-4893-B939-F8A178EB5201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeDraw", "ShapeDraw\ShapeDraw.csproj", "{6A106E4C-E1B4-404D-AAD9-53DDC6E31FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +169,10 @@ Global
 		{AE22E1E4-1448-4893-B939-F8A178EB5201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE22E1E4-1448-4893-B939-F8A178EB5201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE22E1E4-1448-4893-B939-F8A178EB5201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A106E4C-E1B4-404D-AAD9-53DDC6E31FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A106E4C-E1B4-404D-AAD9-53DDC6E31FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A106E4C-E1B4-404D-AAD9-53DDC6E31FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A106E4C-E1B4-404D-AAD9-53DDC6E31FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +206,7 @@ Global
 		{46B219C2-C143-4950-AAA7-0597A996413F} = {A8812FC2-BB1F-4918-B99F-74159A571E02}
 		{4F1A0203-E2DE-46F2-916D-8BEA63CF817F} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
 		{AE22E1E4-1448-4893-B939-F8A178EB5201} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
+		{6A106E4C-E1B4-404D-AAD9-53DDC6E31FB7} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
