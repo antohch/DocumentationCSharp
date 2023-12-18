@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace ConsoleAppShablonNet
 {
@@ -18,6 +19,7 @@ namespace ConsoleAppShablonNet
             Console.WriteLine(WaterState(12));
             Console.WriteLine(WaterState2(213));
             Console.WriteLine(CalculateDiscount(new Order(6, 501.00m)));
+            TransactionRead();
         }
         public static T MidPoint<T>(IEnumerable<T> sequence)
         {
@@ -103,5 +105,35 @@ namespace ConsoleAppShablonNet
                 null => throw new ArgumentNullException(nameof(order), "Can't calculate"),
                 var someObject => 0m,
             };
+        static string[][] ReadRecords()
+        {
+            return new string[][]
+            {
+                new string[]{ "04-01-2020", "DEPOSIT",    "Initial deposit","2250,00"},
+                new string[]{"04-15-2020", "DEPOSIT",    "Refund",                      "125,65" },
+                new string[]{"04-18-2020", "DEPOSIT",    "Paycheck",                    "825,65" },
+                new string[]{"04-22-2020", "WITHDRAWAL", "Debit",           "Groceries", "255,73" },
+                new string[]{"05-01-2020", "WITHDRAWAL", "#1102",           "Rent, apt", "2100,00" },
+                new string[]{"05-02-2020", "INTEREST",                                  "0,65" },
+                new string[]{"05-07-2020", "WITHDRAWAL", "Debit",           "Movies",      "12,57" },
+                new string[]{"04-15-2020", "FEE",                                       "5,55" }
+            };
+        }
+        static void TransactionRead()
+        {
+            decimal balance = 0m;
+            foreach (string[] transaction in ReadRecords())
+            {
+                balance += transaction switch
+                {
+                    [_, "DEPOSIT", _, var amount] => decimal.Parse(amount),
+                    [_, "WITHDRAWAL", .., var amount] => -decimal.Parse(amount),
+                    [_, "INTEREST", var amount] => decimal.Parse(amount),
+                    [_, "FEE", var fee] => -decimal.Parse(fee),
+                    _ => throw new InvalidOperationException($"Record{string.Join(", ", transaction)} is not in the expected format"),
+                };
+                Console.WriteLine($"Record: {string.Join(", ", transaction)}, New balance: {balance:C}");
+            }
+        }
     }
 }
