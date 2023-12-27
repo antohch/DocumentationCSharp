@@ -77,6 +77,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuerytCity", "QuerytCity\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonCortege", "PersonCortege\PersonCortege.csproj", "{954954E6-E4D8-454D-A6E0-9884427839B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchProvidesFormatInfo", "SwitchProvidesFormatInfo\SwitchProvidesFormatInfo.csproj", "{1475589C-9299-49A4-AEA0-63AE18CD843D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{954954E6-E4D8-454D-A6E0-9884427839B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954954E6-E4D8-454D-A6E0-9884427839B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954954E6-E4D8-454D-A6E0-9884427839B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1475589C-9299-49A4-AEA0-63AE18CD843D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1475589C-9299-49A4-AEA0-63AE18CD843D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1475589C-9299-49A4-AEA0-63AE18CD843D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1475589C-9299-49A4-AEA0-63AE18CD843D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +248,7 @@ Global
 		{F3FF499B-6996-4FB1-967B-EAC01364CC04} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
 		{4CE8AD85-14FF-4197-9AE0-F00FBE112296} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
 		{954954E6-E4D8-454D-A6E0-9884427839B4} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
+		{1475589C-9299-49A4-AEA0-63AE18CD843D} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
