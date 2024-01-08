@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace QueryCityDataConsole
 {
-    internal class Example
+    static class ExtraString
     {
-        public void Deconstruct(out string fname, out string lname)
+        private static int i = 1, y = 0;
+        public static void ExSt(this string s)
         {
-            fname = "Fname";
-            lname = "Lname";
+            Console.WriteLine("{0} Extra = {1}, {2}", s, i, y);
         }
     }
 }
