@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -49,6 +50,16 @@ namespace ConsoleAppExceptionTest
         }
         static void Main(string[] args)
         {
+            try
+            {
+                string s = "s";
+                Console.WriteLine(s.Length);
+            }
+            catch (Exception e) when (LogException(e))
+            { 
+                
+            }
+            Console.WriteLine("exception must have been handled");
             TestFinally();
             try
             {
@@ -92,6 +103,13 @@ namespace ConsoleAppExceptionTest
             Console.WriteLine("Done");
             //
             Console.ReadKey();
+        }
+
+        private static bool LogException(Exception e)
+        {
+            Console.WriteLine($"\tIn the log routine. Caught {e.GetType()}");
+            Console.WriteLine($"\tMessage: {e.Message}");
+            return false;
         }
     }
 }
