@@ -50,6 +50,17 @@ namespace ConsoleAppExceptionTest
         }
         static void Main(string[] args)
         {
+            FileStream file = null;
+            FileInfo fileInfo = new System.IO.FileInfo("./file.txt");
+            try
+            {
+                file = fileInfo.OpenWrite();
+                file.WriteByte(0xF);
+            }
+            finally
+            {
+                file?.Close();
+            }
             try
             {
                 string s = "s";
