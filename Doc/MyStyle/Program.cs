@@ -44,7 +44,18 @@ namespace MyStyle
                 byte charset = arial.GdiCharSet;
             }
 
-
+            Console.WriteLine("Ender a dividend: ");
+            int dividend = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a divisor: ");
+            int divisor = Convert.ToInt32(Console.ReadLine());
+            if ((divisor != 0) && (dividend / divisor) is var result)
+            {
+                Console.WriteLine("Quotient: {0}", result);
+            }
+            else
+            {
+                Console.WriteLine("Attempted divison by o ends up here.");
+            }
             Console.ReadKey();
         }
     }
