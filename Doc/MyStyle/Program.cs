@@ -56,6 +56,28 @@ namespace MyStyle
             {
                 Console.WriteLine("Attempted divison by o ends up here.");
             }
+
+            var message = "This is clearly a string.";
+            var currentTemperature = 27;
+
+            int numberOfIterations = Convert.ToInt32(Console.ReadLine());
+
+            var phrase = "lalalalalalalalalalalalalala";
+            var manyPhrases = new StringBuilder();
+            for (var i =0; i < 1000; i++)
+            {
+                manyPhrases.Append(phrase);
+            }
+            Console.WriteLine(manyPhrases);
+
+            foreach(char ch in "laugh")
+            {
+                if (ch == 'h')
+                    Console.WriteLine("H");
+                else
+                    Console.WriteLine(ch);
+            }
+
             Console.ReadKey();
         }
     }
