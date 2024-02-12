@@ -11,15 +11,18 @@ namespace PatternStateFather
         static void Main(string[] args)
         {
            Father father = new Father();
-           Mark mark = new Mark();
+
 
             Console.WriteLine("");
             while (true)
             {
                 Console.WriteLine("");
                 Console.Write("Сын принес: ");
-                mark = (Console.ReadKey().KeyChar.ToString() == "5") ? mark = Mark.Five : mark = Mark.Two;
+
+                Mark mark = (Console.ReadKey().KeyChar.ToString() == "5") ? mark = Mark.Five : mark = Mark.Two;
+
                 Console.WriteLine("");
+
                 father.FindOut(mark);
             }
         }

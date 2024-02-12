@@ -8,7 +8,7 @@ namespace PatternStateFather
 {
     internal enum Mark
     {
-        Five = 5,
-        Two = 2
+        Five,
+        Two
     }
 }
