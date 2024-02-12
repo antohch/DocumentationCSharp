@@ -10,21 +10,18 @@ namespace PatternStateFather
     {
         static void Main(string[] args)
         {
-            Father father = new Father();
-            father.FindOut(Mark.Five);
-            father.FindOut(Mark.Five);
-            father.FindOut(Mark.Five);
-            father.FindOut(Mark.Two);
-            father.FindOut(Mark.Five);
-            father.FindOut(Mark.Two);
-            father.FindOut(Mark.Two);
-            father.FindOut(Mark.Two);
-            father.FindOut(Mark.Two);
-            father.FindOut(Mark.Two);
-            father.FindOut(Mark.Five);
-            father.FindOut(Mark.Five);
+           Father father = new Father();
+           Mark mark = new Mark();
 
-            Console.ReadKey();
+            Console.WriteLine("");
+            while (true)
+            {
+                Console.WriteLine("");
+                Console.Write("Сын принес: ");
+                mark = (Console.ReadKey().KeyChar.ToString() == "5") ? mark = Mark.Five : mark = Mark.Two;
+                Console.WriteLine("");
+                father.FindOut(mark);
+            }
         }
     }
 }

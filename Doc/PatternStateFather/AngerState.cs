@@ -24,7 +24,7 @@ namespace PatternStateFather
                     }
                 case Mark.Five:
                     {
-                        father.State = new PityState();
+                        father.State = new NeutralState();
                         break;
                     }
             }
