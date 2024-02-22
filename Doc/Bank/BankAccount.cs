@@ -67,5 +67,6 @@ namespace Bank
             }
             return report.ToString();
         }
+        public virtual void PerformMonthEndTransactions() { }
     }
 }
