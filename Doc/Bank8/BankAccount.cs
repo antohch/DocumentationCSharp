@@ -56,20 +56,28 @@ namespace Bank8
         }
         public void MakeWithdrawal(decimal amount, DateTime date, string note)
         { 
-            //if (amount <= 0)
-            //{
-            //    throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
-            //}
-            //if ( Balance - amount < _minimumBalance)
-            //{
-            //    throw new InvalidOperationException("No sufficient funds for this withdrawal");
-            //}
-            //var withdrawal = new Transaction(-amount, date, note);
-            //_allTransactions.Add(withdrawal);
+            if(amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount), "amount of withdrawal must be positive");
+            }
+            Transaction? overdraftTransaction = CheckWithdrawalLimit(Balance - amount < _minimumBalance);
+            Transaction? withdrawal = new(-amount, date, note);
+            _allTransactions.Add(withdrawal);
+            if (overdraftTransaction != null)
+            {
+                _allTransactions.Add(overdraftTransaction);
+            }
         }
         protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn)
         {
-
+            if (isOverdrawn)
+            {
+                throw new InvalidOperationException("Not sufficient funds for this withdrawal");
+            }
+            else
+            {
+                return default;
+            }
         }
         public string GetAccountHistory()
         {
