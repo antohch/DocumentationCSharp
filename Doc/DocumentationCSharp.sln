@@ -99,7 +99,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank8", "Bank8\Bank8.csproj", "{66727287-EE9B-46FC-A3D9-CB39BCDF896A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{C898C17F-644E-4A6F-B72E-C0EBF8E061B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{C898C17F-644E-4A6F-B72E-C0EBF8E061B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance1", "Inheritance1\Inheritance1.csproj", "{8DE82DDB-3C08-4DAE-B47B-4A23361F2499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{C898C17F-644E-4A6F-B72E-C0EBF8E061B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C898C17F-644E-4A6F-B72E-C0EBF8E061B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C898C17F-644E-4A6F-B72E-C0EBF8E061B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE82DDB-3C08-4DAE-B47B-4A23361F2499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE82DDB-3C08-4DAE-B47B-4A23361F2499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE82DDB-3C08-4DAE-B47B-4A23361F2499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE82DDB-3C08-4DAE-B47B-4A23361F2499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,6 +324,7 @@ Global
 		{4A6A8109-47BA-4880-99BC-6B4B3B7BA4F4} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
 		{66727287-EE9B-46FC-A3D9-CB39BCDF896A} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
 		{C898C17F-644E-4A6F-B72E-C0EBF8E061B8} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
+		{8DE82DDB-3C08-4DAE-B47B-4A23361F2499} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
