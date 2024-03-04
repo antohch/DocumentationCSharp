@@ -29,6 +29,7 @@ namespace Inheritance1
 
             if (year < 1857 || year > DateTime.Now.Year + 2)
                 throw new ArgumentException("The year is out of range.");
+            Year = year;
         }
 
         public string Make { get; }

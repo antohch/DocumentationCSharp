@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var packard = new Automobile("Packard", "Custom Eight", 1948);
+            Console.WriteLine(packard);
         }
     }
 }
