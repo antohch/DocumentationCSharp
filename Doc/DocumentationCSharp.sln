@@ -105,9 +105,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance1", "Inheritance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceMagazine", "InheritanceMagazine\InheritanceMagazine.csproj", "{981AE472-97E8-4352-A3C5-DB29B256F78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeConsole", "ShapeConsole\ShapeConsole.csproj", "{B9ECAE57-C64E-45BB-AA7F-67BFC6D31CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeConsole", "ShapeConsole\ShapeConsole.csproj", "{B9ECAE57-C64E-45BB-AA7F-67BFC6D31CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorIs", "OperatorIs\OperatorIs.csproj", "{D44C4BE2-A459-475E-A070-3EF0BDB2C5EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorIs", "OperatorIs\OperatorIs.csproj", "{D44C4BE2-A459-475E-A070-3EF0BDB2C5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarConsole", "CarConsole\CarConsole.csproj", "{624B62D7-CB96-4E97-B2B8-7629E1EF9E53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{D44C4BE2-A459-475E-A070-3EF0BDB2C5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44C4BE2-A459-475E-A070-3EF0BDB2C5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44C4BE2-A459-475E-A070-3EF0BDB2C5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624B62D7-CB96-4E97-B2B8-7629E1EF9E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624B62D7-CB96-4E97-B2B8-7629E1EF9E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624B62D7-CB96-4E97-B2B8-7629E1EF9E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624B62D7-CB96-4E97-B2B8-7629E1EF9E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -346,6 +352,7 @@ Global
 		{981AE472-97E8-4352-A3C5-DB29B256F78C} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
 		{B9ECAE57-C64E-45BB-AA7F-67BFC6D31CAC} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
 		{D44C4BE2-A459-475E-A070-3EF0BDB2C5EB} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
+		{624B62D7-CB96-4E97-B2B8-7629E1EF9E53} = {2A127F2B-590F-45DA-A29E-A84DE3798910}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
