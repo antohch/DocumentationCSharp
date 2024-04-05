@@ -123,9 +123,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorConsole", "Const
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanalConsole", "CanalConsole\CanalConsole.csproj", "{635EE097-22E2-45DD-8172-0CA6147446F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolationConsole", "InterpolationConsole\InterpolationConsole.csproj", "{C74F86C1-BC66-4C94-A5FD-FB6BA9646930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpolationConsole", "InterpolationConsole\InterpolationConsole.csproj", "{C74F86C1-BC66-4C94-A5FD-FB6BA9646930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolationConsoleTest", "InterpolationConsoleTest\InterpolationConsoleTest.csproj", "{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpolationConsoleTest", "InterpolationConsoleTest\InterpolationConsoleTest.csproj", "{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppIEnumerator", "ConsoleAppIEnumerator\ConsoleAppIEnumerator.csproj", "{BC27A8E9-894E-4420-88E0-81FDEF0EE543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppYield", "ConsoleAppYield\ConsoleAppYield.csproj", "{10ABFB74-8833-4F52-AC78-B95F8060C1E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -337,6 +341,14 @@ Global
 		{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC27A8E9-894E-4420-88E0-81FDEF0EE543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC27A8E9-894E-4420-88E0-81FDEF0EE543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC27A8E9-894E-4420-88E0-81FDEF0EE543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC27A8E9-894E-4420-88E0-81FDEF0EE543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -401,6 +413,8 @@ Global
 		{635EE097-22E2-45DD-8172-0CA6147446F6} = {37ACD339-50EA-417B-8A3C-934AADC12018}
 		{C74F86C1-BC66-4C94-A5FD-FB6BA9646930} = {37ACD339-50EA-417B-8A3C-934AADC12018}
 		{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18} = {37ACD339-50EA-417B-8A3C-934AADC12018}
+		{BC27A8E9-894E-4420-88E0-81FDEF0EE543} = {37ACD339-50EA-417B-8A3C-934AADC12018}
+		{10ABFB74-8833-4F52-AC78-B95F8060C1E6} = {37ACD339-50EA-417B-8A3C-934AADC12018}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
