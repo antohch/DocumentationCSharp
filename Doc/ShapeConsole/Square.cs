@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShapeConsole
 {
+    //
     public class Square : Shape
     {
         public Square(double length)
