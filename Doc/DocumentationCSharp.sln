@@ -127,9 +127,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpolationConsole", "Int
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpolationConsoleTest", "InterpolationConsoleTest\InterpolationConsoleTest.csproj", "{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppIEnumerator", "ConsoleAppIEnumerator\ConsoleAppIEnumerator.csproj", "{BC27A8E9-894E-4420-88E0-81FDEF0EE543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppIEnumerator", "ConsoleAppIEnumerator\ConsoleAppIEnumerator.csproj", "{BC27A8E9-894E-4420-88E0-81FDEF0EE543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppYield", "ConsoleAppYield\ConsoleAppYield.csproj", "{10ABFB74-8833-4F52-AC78-B95F8060C1E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppYield", "ConsoleAppYield\ConsoleAppYield.csproj", "{10ABFB74-8833-4F52-AC78-B95F8060C1E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeWario", "CodeWario", "{24290265-A019-4847-ABF6-D27EC833846A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConvertConsole", "RomanConvertConsole\RomanConvertConsole.csproj", "{BABBF545-4B75-4AA4-B3B5-BE188C339EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConvertConsoleNUnitTest", "RomanConvertConsoleNUnitTest\RomanConvertConsoleNUnitTest.csproj", "{6ADD2A25-EEC6-4E6F-A610-B94048FEF01B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -349,6 +355,14 @@ Global
 		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10ABFB74-8833-4F52-AC78-B95F8060C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABBF545-4B75-4AA4-B3B5-BE188C339EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABBF545-4B75-4AA4-B3B5-BE188C339EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABBF545-4B75-4AA4-B3B5-BE188C339EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABBF545-4B75-4AA4-B3B5-BE188C339EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADD2A25-EEC6-4E6F-A610-B94048FEF01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADD2A25-EEC6-4E6F-A610-B94048FEF01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADD2A25-EEC6-4E6F-A610-B94048FEF01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADD2A25-EEC6-4E6F-A610-B94048FEF01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -415,6 +429,9 @@ Global
 		{4906B8A4-A4C8-44E2-A8D2-6BC44E42BE18} = {37ACD339-50EA-417B-8A3C-934AADC12018}
 		{BC27A8E9-894E-4420-88E0-81FDEF0EE543} = {37ACD339-50EA-417B-8A3C-934AADC12018}
 		{10ABFB74-8833-4F52-AC78-B95F8060C1E6} = {37ACD339-50EA-417B-8A3C-934AADC12018}
+		{24290265-A019-4847-ABF6-D27EC833846A} = {90DB75C5-1A70-4D43-85F3-26146DE29F3E}
+		{BABBF545-4B75-4AA4-B3B5-BE188C339EEC} = {24290265-A019-4847-ABF6-D27EC833846A}
+		{6ADD2A25-EEC6-4E6F-A610-B94048FEF01B} = {24290265-A019-4847-ABF6-D27EC833846A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
