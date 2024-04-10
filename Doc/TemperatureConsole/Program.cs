@@ -1,9 +1,9 @@
-﻿namespace Temperature
+﻿namespace TemperatureConsole
 {
     internal class Program
     {
         private static DailyTemperature[] data = [
-                new DailyTemperature(HighTemp: 57, LowTemp: 30),
+        new DailyTemperature(HighTemp: 57, LowTemp: 30),
                 new DailyTemperature(60, 35),
                 new DailyTemperature(63, 33),
                 new DailyTemperature(68, 29),
@@ -23,11 +23,11 @@
                 new DailyTemperature(76, 53),
                 new DailyTemperature(80, 60),
                 new DailyTemperature(85, 66)
-            ];
+    ];
         static void Main(string[] args)
         {
-            
-
+            foreach (var item in data)
+                Console.WriteLine(item);
         }
     }
 }
