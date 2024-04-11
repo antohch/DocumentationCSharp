@@ -9,10 +9,10 @@ namespace UniveralTemplates
 {
     internal class GenericList<T>
     {
-        private class Node
+        public class Node
         {
-            private Node? next;
-            private Node? data;
+            private Node next;
+            private T data;
 
             public Node(T t) 
             {

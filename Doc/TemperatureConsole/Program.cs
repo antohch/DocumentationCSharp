@@ -28,6 +28,29 @@
         {
             foreach (var item in data)
                 Console.WriteLine(item);
+
+            var heatingDegreeDays = new HeatingDegreeDays(65, data);
+            Console.WriteLine(heatingDegreeDays);
+            var coolingDegreeDays = new CoolingDegreeDays(65, data);
+            Console.WriteLine(coolingDegreeDays);
+
+            var growingDegreeDays = coolingDegreeDays with { BaseTemperature = 41 };
+            Console.WriteLine(growingDegreeDays);
+            Console.WriteLine(coolingDegreeDays);
+
+            List<CoolingDegreeDays> movingAccumulation = new();
+            int rangeSize = (data.Length > 5) ? 5 : data.Length;
+            for (int start = 0; start < data.Length - rangeSize; start++)
+            {
+                var fiveDayTotal = growingDegreeDays with { TempRecords = data[start..(start + rangeSize)] };
+                movingAccumulation.Add(fiveDayTotal);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Total degree days in the last fime days");
+            foreach(var item in movingAccumulation)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

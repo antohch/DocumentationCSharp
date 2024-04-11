@@ -67,9 +67,9 @@ namespace Bank8
             //var withdrawal = new Transaction(-amount, date, note);
             //_allTransactions.Add(withdrawal);
         }
-        protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn)
+        protected virtual Transaction CheckWithdrawalLimit(bool isOverdrawn)
         {
-
+            return new Transaction(10, DateTime.Now, "10");
         }
         public string GetAccountHistory()
         {
