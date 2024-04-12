@@ -2,7 +2,56 @@
 {
     internal class Program
     {
-        private static DailyTemperature[] data = [
+        public static int MaxSequence(int[] arr)
+        {
+            //TODO : create code
+            Array.Sort(arr);
+            int max = 0;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > 0)
+                {
+                    if (i + 1 < arr.Length)
+                    {
+                        if (Math.Abs(arr[i]) - Math.Abs(arr[i + 1]) != 1)
+                        {
+                            if (arr[i] > 0)
+                                max += arr[i];
+                            else
+                                max += arr[i + 1];
+                        }
+                    }
+                    else
+                    {
+                        max += arr[i];
+                    }
+                }
+                else if (arr[i] < 0)
+                {
+                    if (arr[i] < 0 && arr[i+1] > 0)
+                    {
+                        max += arr[i];
+                    }
+                    else if (Math.Abs(arr[i]) - Math.Abs(arr[i + 1]) != 1)
+                    {
+                        if (arr[i] < 0)
+                            max += arr[i];
+
+                    }
+                }
+            }
+            return max;
+        }
+
+
+
+
+
+
+
+
+    private static DailyTemperature[] data = [
         new DailyTemperature(HighTemp: 57, LowTemp: 30),
                 new DailyTemperature(60, 35),
                 new DailyTemperature(63, 33),
@@ -51,6 +100,11 @@
             {
                 Console.WriteLine(item);
             }
+
+
+
+
+            Console.WriteLine(MaxSequence(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
         }
     }
 }
