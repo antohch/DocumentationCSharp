@@ -141,7 +141,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureConsoleTest", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppUP", "ConsoleAppUP\ConsoleAppUP.csproj", "{CE97A4DA-BE02-478E-AE42-740B2CAC259E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexConsoleApp3", "IndexConsoleApp3\IndexConsoleApp3.csproj", "{8BAEF644-59B8-4308-B958-DCF659356867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexConsoleApp3", "IndexConsoleApp3\IndexConsoleApp3.csproj", "{8BAEF644-59B8-4308-B958-DCF659356867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTwoSum2", "KataTwoSum2\KataTwoSum2.csproj", "{DB810459-38F8-481F-BE05-C9BF847ABC65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -385,6 +387,10 @@ Global
 		{8BAEF644-59B8-4308-B958-DCF659356867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAEF644-59B8-4308-B958-DCF659356867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAEF644-59B8-4308-B958-DCF659356867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB810459-38F8-481F-BE05-C9BF847ABC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB810459-38F8-481F-BE05-C9BF847ABC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB810459-38F8-481F-BE05-C9BF847ABC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB810459-38F8-481F-BE05-C9BF847ABC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -457,6 +463,7 @@ Global
 		{185A5151-BDD4-42BD-AC48-046D72578FDE} = {24290265-A019-4847-ABF6-D27EC833846A}
 		{CE97A4DA-BE02-478E-AE42-740B2CAC259E} = {37ACD339-50EA-417B-8A3C-934AADC12018}
 		{8BAEF644-59B8-4308-B958-DCF659356867} = {37ACD339-50EA-417B-8A3C-934AADC12018}
+		{DB810459-38F8-481F-BE05-C9BF847ABC65} = {24290265-A019-4847-ABF6-D27EC833846A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}

@@ -177,6 +177,12 @@
                 Console.WriteLine(num);
             }
 
+            var arrayOfFiveItem = new[] { 1, 2, 3, 4, 5 };
+            var firstThreeITems = arrayOfFiveItem[..3];
+            firstThreeITems[0] = 11;
+            Console.WriteLine(string.Join(',', arrayOfFiveItem));
+            Console.WriteLine(string.Join(',', arrayOfFiveItem));
+
         }
     }
 }
