@@ -159,6 +159,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Append", "Linq_Append\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_AsEnumerable", "Linq_AsEnumerable\Linq_AsEnumerable.csproj", "{6FB264C1-2246-411B-9D45-8EB6D4DA3D20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Average", "Linq_Average\Linq_Average.csproj", "{0736CAC6-0A85-4AA2-B059-0B677F2D06D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +431,10 @@ Global
 		{6FB264C1-2246-411B-9D45-8EB6D4DA3D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB264C1-2246-411B-9D45-8EB6D4DA3D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB264C1-2246-411B-9D45-8EB6D4DA3D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0736CAC6-0A85-4AA2-B059-0B677F2D06D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0736CAC6-0A85-4AA2-B059-0B677F2D06D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0736CAC6-0A85-4AA2-B059-0B677F2D06D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0736CAC6-0A85-4AA2-B059-0B677F2D06D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -508,6 +514,7 @@ Global
 		{9471C702-530A-491B-AD95-6223A3F7DB02} = {6272742F-A848-4828-9FE4-99DF4E6D51AC}
 		{9B347E92-7EE5-4DB1-BC6D-018A50AD4FD8} = {6272742F-A848-4828-9FE4-99DF4E6D51AC}
 		{6FB264C1-2246-411B-9D45-8EB6D4DA3D20} = {6272742F-A848-4828-9FE4-99DF4E6D51AC}
+		{0736CAC6-0A85-4AA2-B059-0B677F2D06D2} = {6272742F-A848-4828-9FE4-99DF4E6D51AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B45E42B4-040B-4337-9C4B-4948099339AF}
